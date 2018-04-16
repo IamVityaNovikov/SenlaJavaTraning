@@ -10,7 +10,7 @@ public class Test{
 		}
 		
 		dep.GetPositions()[0].AddEmployee("Ivan","Neivanov",29,300);
-		dep.GetPositions()[0].AddEmployee("Pajeet","Hinduism",44,200);
+		dep.GetPositions()[0].AddEmployee("Pmhbz","Hihjdgnsd",44,200);
 		dep.GetPositions()[1].AddEmployee("Irina","Testova",30,200);
 
 
