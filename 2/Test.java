@@ -19,7 +19,7 @@ public class Test{
 		int emp_num = emps.length; 
 
 		emps[0].SetContacts(45726,"vanya@ivan.ru","orel address");
-		emps[1].SetContacts(916416,"pajeet@coder.org","rashyufscf");
+		emps[1].SetContacts(916416,"fghjk@coder.org","rashyufscf");
 		emps[2].SetContacts(85698,"test@mail.ru","orel too");
 			
 		for(int i=0;i<emp_num;i++){
