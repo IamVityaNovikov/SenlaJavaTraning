@@ -14,7 +14,9 @@ public class Bouquet {
 	}
 	
 	public void AddFlower(flower item) {
-		if (n_flow<(flowers.length -1)) {
+		if (n_flow == flowers.length){
+			System.out.println("Too many flowers!");
+		} else {
 			flowers[n_flow] = item;
 			n_flow++;
 		}

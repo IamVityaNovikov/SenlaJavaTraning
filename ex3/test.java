@@ -11,6 +11,7 @@ public class test {
 		item.AddFlower(new PinkRose());
 		item.AddFlower(new rose());
 		item.AddFlower(new Tulip());
+		//item.AddFlower(new Tulip());
 		
 		item.PrintInfo();
 

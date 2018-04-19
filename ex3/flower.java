@@ -2,8 +2,14 @@ package senla.tsk3.ex3;
 
 public class flower {
 	
-	protected static String name = new String("Flower");
-	protected static int price = 20;
+	protected String name;
+	protected int price;
+
+	public flower() {
+		name = new String("Flower");
+		price = 20;
+		
+	}
 	
 	public String getName() {
 			return name;
