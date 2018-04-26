@@ -7,13 +7,13 @@ public class Test {
 		Control control = new Control(28);
 		System.out.println(me);
 		
-		control.AddService("Sell drugs", 666);
-		control.AddService("Clean vomit", 20);
+		control.AddService("Bring food", 666);
+		control.AddService("Clean room", 20);
 		control.ShowService();
 		
 		control.AddRoom(20, 3, 3, "Mediocre room");
 		control.AddRoom(100, 5, 5, "Very good room");
-		control.AddRoom(5, 1, 0, "Just fuck your shit up");
+		control.AddRoom(5, 1, 0, "Not good at all");
 		control.ShowRooms();
 	}
 	
